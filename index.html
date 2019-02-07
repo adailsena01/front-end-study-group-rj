@@ -3,118 +3,200 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Womarkers Code - Adail Sena</title>
-	<link rel="shortcut icon" href="images/icon.ico" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
+	<!--colocar o icone no navegador -->
+	<link rel="shortcut icon" href="images/icon.ico"> 
+	
 </head>
 <body>
+<!-- Area do menu -->
 	<header id="topo">
-		
-			<div class="container">
-				<div id="logo">
-					<img src="images/logo.png" alt="Logotipo do Womarkers Code" >
-				</div>
-				<nav id="menu">
-					<a href="#home">HOME</a>
-					<a href="#servicos">SERVIÇOS</a>
-					<a href="#portfolio">PORTFOLIO</a>
-					<a href="#sobremim">SOBRE MIM</a>
-					<a href="#contato">CONTATO</a>
-				</nav>
-				
-			</div>
-		</header>
-	
-	<article id="banner">
-		
-	<h1>BEM VIND@<h1>
-	<p>MEU PORTFÓLIO</p>
-	<p>Conheça o meu trabalho...</p>
-		<img src="images/Slider.png" alt="banner de fundo com quadrados">
-		<img src="images/slider01.png" alt="borboleta" width:"400px" height="340px">
-				
-	<div id="servicos">
-			<h1>Serviços</h1>
-			<p>Área reservada para informações sobre os meus serviços...</p>
-			<hr/>
-			<section class="coluna">
+		<div class="container">
 			
-				<img src="images/Service1.png" alt="Websites">
+				<div id="logo">
+					<img src="images/logo.png" alt="Logotipo do Womarkers Code" width:"100px" height="40px" >
+				</div>
+					<nav id="menu">
+						<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">SERVIÇOS</a></li>
+							<li><a href="#">PORTFOLIO</a></li>
+							<li><a href="#">SOBRE MIM</a></li>
+							<li><a href="#">CONTATO</a></li>
+						</ul>
+					</nav>
+				</div>
+		</header>
+				
+ 
+  
+<div class="banner">
+   
+    <img src="images/Slider.png" alt="">
+    <div class="cor"></div>
+  <div>
+    <img class="img-borb" src="images/slider01.png" alt="">
+    <div class="textBanner">
+        <h5><i id="spaceTextBanner"></i>BEM VIND@</h5>
+           <div class="textBanner2">
+               <h6><i id="spaceTextBanner"></i>AO MEU PORTFÓLIO</h6>
+                    <p><i id="spaceTextBanner" ></i>Aqui você terá mais informações sobre o meu trabalho</p>
+        </div>
+    </div>
+	</div>
+</div>
+
+  
+   
+    <div class="container">
+   
+		<h1>Serviços</h1>
+		<h3>Área reservada para informações sobre os meus serviços...</h3>
+		<hr/>
+			<div class="flex-colunas">
+			<section class="coluna-inferior">
+				
+				<img class="img-circle" src="images/Service1.png" alt="Websites">
 				<h2>Websites</h2>
 				<p>Veja os Websites feito para diversos seguimentos</p>
 			</section>
 			
-			<section class="coluna">
-				<img src="images/Service2.png" alt="Templates">
-				<h2>Templates</h2>
-				<p>Escolha um modelo para o seu website, podendo fazer as customizações desejadas</p>
-			</section>	 
-			<section class="coluna">
-				<img src="images/Service3.png" alt="Temas Wordpress">
-				<h2>Websites</h2>
-				<p>Aqui você verá alguns temas</p>
-			</section>					
-	</div>
-
-		<div id="meustrab">
+			<section class="coluna-inferior">
+				<img class="img-circle" src="images/Service2.png" alt="Templates">
+					<h2>Templates</h2>
+					<p>Escolha um modelo para o seu website, podendo fazer as customizações desejadas</p>
+									
+			</section>
 			
-				<h1> Meus Trabalhos</h1>
-				<p>Trabalhos realizados em vários mercados do Brasil</p>
+			<section class="coluna-inferior">
+				<img class="img-circle" src="images/Service3.png" alt="Temas Wordpress">
+						<h2>Temas Wordpress</h2>
+						<p>Aqui você verá alguns temas</p>
+			</section>
+		</div>
+		
+	</div> <!-- Fim do container -->
+	
+      <div class="portfolio">
+      
+      	<h1>Meus Trabalhos</h1>
+				<h4>Trabalhos realizados em vários mercados do Brasil</h4>
 				<hr/>
-				<a href="#" class="botao">Tudo</a>
-				<a href="#" class="botao">Website</a>
-				<a href="#" class="botao">Template</a>
-				<a href="#" class="botao">Tema</a>
-
-				<section class="coluna2">
+				<button type="button" name="btn_Tudo">Tudo</button>
+		        <button type="button" name="btn_WebSite">Website</button>
+		        <button type="button" name="btn_Template">Template</button>
+		        <button type="button" name="btn_Tema">Tema</button>
+				
+      
+		<div class="flex-colunas">
+			<article class="coluna-inferior2">
+			
 					<img src="images/Portfolio01.png" alt="imagem1">
-					<h2>Imagem 1</h2>
-					<p>Imagem 1 Imagem 1 Imagem 1 </p>
-				</section>
-				<section class="coluna2">
-					<img src="images/Portfolio02.png" alt="imagem2">
-					<h2>Imagem 2</h2>
-					<p>Imagem 2 Imagem 2 Imagem 2 </p>
-				</section>
-				<section class="coluna2">
-					<img src="images/Portfolio03.png" alt="imagem3">
-					<h2>Imagem 3</h2>
-					<p>Imagem 3 Imagem 3 Imagem 3 </p>
-				</section>						
+				    <h2>Mulheres na Tecnologia</h2>
+					<p>Fazemos diversos encontros nas principais capitais do Brasil </p>
+			</article>
+			<article class="coluna-inferior2">
+				
+				    <img src="images/Portfolio02.png" alt="imagem2">
+				    <h2>Linguagens</h2>
+					<p>Utilizamos as linguagens do mercado  </p>
+			</article>	
+			<article class="coluna-inferior2">
+				
+				    <img src="images/Portfolio03.png" alt="imagem3">
+					<h2>Tendências</h2>
+					<p>Estamos sempre antenados com as novas tendências </p>
+			</article>	
+			
 		</div>
-	
-	<div id="quemsomos">
-		<h2> Quem somos</h2>
-		<p>Somos uma empresa que atua em todo o Brasil levando um trabalho com qualidade</p>
-		<hr/>
-            <img src="images/photo.png" alt="mulher">
-		    <h1>Joana D'Arc</h1>
-        <h2>Sobre mim </h2>
-		   <p>Trabalho na área de informática desde 1992 em diversas áreasccom Website trabalho a mais de 2 anos...</p>
-		   <h2>Habilidades</h2>
-		   <a href="#" class="botao">Java Script</a>
-				<a href="#" class="botao">Html & Css</a>
-				<a href="#" class="botao">JQuery</a>
-				<a href="#" class="botao">Wordpress</a
-		
-		</div>
-		
-		<div id="contato">
-		<h2>Contato</h2>
-		<p>Temos diversas opções para contato. Envie os seus dados para que possamos enviar a nossa proposta</p>
-		<hr/>
-       <p>E-mail: aasena01@gmail.com</p>
-       <p>Tel.: 21-99746-8667</p>
-       	<hr/>
-       	<h3>Mídias</h3>
-    			
-		</div>
-		
-		<footer id="rodape">
-		
-		<p  align="center">Women + Tech = strong></p>
-		
-	</footer>
+    </div>
+     
+    <!--Sobre mim --> 
+     <section id="sobremim">
 
-	
-	
-</body>
+		<h1>Quem sou eu</h1>
+		<h3>Aqui você terá mais informações sobre mim.</h3>
+		<hr/>
+
+		<figure>
+			<img class="sobre-image" src="images/photo.png">
+			<figcaption class="sobre-mim">
+				Adail Sena
+			</figcaption>
+		</figure>
+
+		<!-- ícones -->
+		<a href="https://www.facebook.com/" target="_blank">
+			<i class="fab fa-facebook-f fa-1x"></i>
+		</a>
+		<a href="https://www.twitter.com/" target="_blank">
+			<i class="fab fa-twitter fa-1x" aria-hidden="true"></i>
+		</a>
+		<a href="https://br.linkedin.com//" target="_blank">
+			<i class="fab fa-linkedin-in fa-1x" aria-hidden="true"></i>
+		</a>
+
+		<h3>Sobre Mim</h3>
+		<p>Sou formada em Análise de Sistemas e Administração de empresas pela Faculdade Integradas Anglo Americano.</p>
+         <p> Trabalho no PRODERJ (órgão de TI do Estado do Rio de Janeiro na área de análise de sistemas, atuando em projetos e desenvolvimento)</p>
+		
+
+		<h2>Habilidades</h2>
+		<div class="barra">
+			<div class="barra-bar"> HTML & CSS</div>
+		</div>
+
+		<div class="barra">
+			<div class="barra-bar2"> Java Script</div>
+		</div>
+
+		<div class="barra">
+			<div class="barra-bar3">SQL</div>
+		</div>
+
+		<div class="barra">
+			<div class="barra-bar">PHP</div>
+		</div>
+
+	</section>
+      
+	<section id="contato">
+			<h1>Contato</h1>
+			<p>Abaixo todos os meus contatos.</p>
+			<hr/>
+			<br>
+			<a href="mailto:aasena01@gmail.com">aasena01@gmail.com</a>
+			<br>
+			<h3>WhatSapp: +55 21 997468667</h3>
+			<br>
+			<p>Mídias</p>
+			<hr/>
+			<div id="icones">
+				<!-- ícones -->
+			<a href="https://www.facebook.com/" target="_blank">
+				<i class="fab fa-facebook-f fa-1x"></i>
+			</a>
+			<a href="https://www.twitter.com/" target="_blank">
+				<i class="fab fa-twitter fa-1x" aria-hidden="true"></i>
+			</a>
+			<a href="https://br.linkedin.com//" target="_blank">
+				<i class="fab fa-linkedin-in fa-1x" aria-hidden="true"></i>
+			</a>
+
+			<a href="https://br.linkedin.com//" target="_blank">
+				<i class="fab fa-pinterest fa-1x" aria-hidden="true"></i>
+			</a>
+			<a href="https://br.linkedin.com//" target="_blank">
+				<i class="fab fa-google-plus fa-1x" aria-hidden="true"></i>
+			</a>
+		</div>
+			
+			</section>
+		<footer id="rodape">
+			<p>Women + Tech = &#60&#47strong&#62 </p>
+		</footer>
+		
+		</body>
 </html>
